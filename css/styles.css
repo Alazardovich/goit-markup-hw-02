@@ -1,0 +1,252 @@
+:root {
+  --primery-color:#212121;
+  --title-color:#757575;
+  --accent-color:#2196F3;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--primery-color);
+  background: #e5e5e5;
+  /* вторчный цвет, доп. текст  #757575*/
+}
+.list {
+  list-style: none;
+}
+/* top header */
+
+.logo {
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+
+letter-spacing: 0.03em;
+color: var(--accent-color); 
+}
+.studio-black {
+  color:var(--primery-color);
+}
+/* front header */
+.page-header {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+  }
+
+.page-hero {
+    background: #2f303a;
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .page-hero.syle-button {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+  }
+/* body */
+/* optimization details work */
+.feautures-list > h3 {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.features-list p {
+  color: var(--title-color);
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+
+.doing-work {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.works-names {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em
+}
+.features p {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+  
+
+   .site-nav .link {
+      font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--primery-color);
+} 
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+   color:var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--title-color);
+}.feautures-list p {
+  color: var(--title-color);
+}
+}
+  
+
+  /* colors section */
+  .section {
+    color: var(--primery-color);
+  }
+  .section-button.link {
+    color: var(--primery-color);
+  }
+  .section-button.link:hover,
+  .section-button.link:focus {
+    color: var(--accent-color);
+  }
+.section-button button:active {
+  color: white;
+}
+.section-button p {
+  color:var(--title-color);
+}
+/* footer */
+.address {
+  background: #2F303A;
+ font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+}
+ 
+.email-address {
+ font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-address {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.street-house {
+   width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 1739px;
+  color:#ffffff;
+}
+
+/* button */
+ section > button {
+    cursor: pointer;
+  }
+  .style-button {
+    color: white;
+    background: var(--accent-color);
+  }
+
+/* sectioin porfolio */
+
+.section-button{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+ .link {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.project-works h3 {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+}
+ 
+.project-works p {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+}
+
+ 
