@@ -8,8 +8,9 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--primery-color);
   background: #e5e5e5;
-  /* вторчный цвет, доп. текст  #757575*/
+  text-decoration: none;
 }
+
 .list {
   list-style: none;
 }
@@ -21,7 +22,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2em;
 
 letter-spacing: 0.03em;
 color: var(--accent-color); 
@@ -35,8 +36,9 @@ color: var(--accent-color);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14em;
 letter-spacing: 0.02em;
+text-decoration: none;
   }
 
 .page-hero {
@@ -46,17 +48,38 @@ letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36em;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
+
+  .hero-title { 
+    font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36em;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+  }
+
+  .auth-nav.link {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14em;
+letter-spacing: 0.02em;
   }
   .page-hero button {
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87em;
 display: flex;
 align-items: center;
 text-align: center;
@@ -72,7 +95,7 @@ letter-spacing: 0.06em;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14em;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -83,8 +106,20 @@ text-transform: uppercase;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7em;
 letter-spacing: 0.03em;
+}
+
+.feature-title {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14em;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+
 }
 
 .doing-work {
@@ -92,7 +127,7 @@ letter-spacing: 0.03em;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16em;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -101,7 +136,7 @@ letter-spacing: 0.03em;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18em;
 text-align: center;
 letter-spacing: 0.03em
 }
@@ -110,19 +145,19 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18em;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
 }
   
 
-   .site-nav .link {
-      font-family: Roboto;
+.site-nav .link {
+font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14em;
 letter-spacing: 0.02em;
 color: var(--primery-color);
 } 
@@ -142,6 +177,7 @@ color: var(--primery-color);
   
 
   /* colors section */
+
   .section {
     color: var(--primery-color);
   }
@@ -152,6 +188,7 @@ color: var(--primery-color);
   .section-button.link:focus {
     color: var(--accent-color);
   }
+  
 .section-button button:active {
   color: white;
 }
@@ -159,13 +196,14 @@ color: var(--primery-color);
   color:var(--title-color);
 }
 /* footer */
+
 .address {
   background: #2F303A;
  font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71em;
 letter-spacing: 0.03em;
 
 }
@@ -175,7 +213,7 @@ letter-spacing: 0.03em;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71em;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
@@ -185,7 +223,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71em;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
@@ -216,7 +254,7 @@ color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.62em;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primery-color);
@@ -226,7 +264,7 @@ color: var(--primery-color);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.62em;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -236,7 +274,7 @@ letter-spacing: 0.03em;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2em;
 letter-spacing: 0.06em;
 }
  
@@ -245,10 +283,17 @@ letter-spacing: 0.06em;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87em;
 letter-spacing: 0.03em;
 }
 /* logo white */
 .studio-white {color:white;}
+
+.address {
+
+}
+
+.project-works {
+  
 
   
