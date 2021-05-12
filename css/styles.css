@@ -17,13 +17,13 @@ body {
 /* top header */
 
 .logo {
-
+cursor: default;
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.2em;
-
+text-decoration: none;
 letter-spacing: 0.03em;
 color: var(--accent-color); 
 }
@@ -31,7 +31,12 @@ color: var(--accent-color);
   color:var(--primery-color);
 }
 /* front header */
+.link {text-decoration: none;
+  cursor: default;
+}
+
 .page-header {
+
   font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -121,7 +126,9 @@ text-transform: uppercase;
 
 
 }
-
+.section.doing-work {
+  background: #F5F4FA;
+}
 .doing-work {
   font-family: Roboto;
 font-style: normal;
@@ -231,11 +238,13 @@ color: rgba(255, 255, 255, 0.6);
 
 
 .street-house {
-   width: 231px;
-  height: 81px;
-  left: 215px;
-  top: 1739px;
-  color:#ffffff;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71em;
+color: #FFFFFF;
+letter-spacing: 0.03em;
 }
 
 /* button */
@@ -248,6 +257,9 @@ color: rgba(255, 255, 255, 0.6);
   }
 
 /* sectioin porfolio */
+.button-line{
+  list-style: none;
+}
 
 .section-button{
   font-family: Roboto;
@@ -288,6 +300,8 @@ letter-spacing: 0.03em;
 }
 /* logo white */
 .studio-white {color:white;}
+.email-address,.tel-address {text-decoration: none;
+cursor: default;}
 
 .address {
 
